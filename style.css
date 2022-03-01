@@ -1,0 +1,53 @@
+.brewery_api,.form{
+    margin: auto;
+}
+.table,.table2,.details_table{
+    border-top: 1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+    font-size:18px;
+}
+th,td{
+    border: 1px solid black;
+}
+input[type="search"]{
+    margin:15px auto 50px;
+    
+}
+.form{
+    margin:auto;
+    width:90%
+}
+.buttons_div{
+    margin:30px auto;
+    width:90%;
+}
+.btns,.next_btn,.prev_btn{
+    font-size:20px;
+    border:none;
+    background-color:rgb(49, 25, 82);
+    color:white;
+}
+.btns:focus,.next_btn:focus,.prev_btn:focus{
+    background-color:rgb(255, 255, 255);
+    color:rgb(49, 25, 82);
+}
+.filter_dropdown,input[type="search"]{
+    height:23px;
+    font-size: 16px;
+}
+.prev_btn,.back_btn{
+    display:none;
+}
+tr:nth-child(odd){
+    background-color:white;
+    color:black;
+}
+th{
+    background-color:rgb(49, 25, 82);
+    color:white;
+}
+body{
+    background-color:rgb(49, 25, 82);
+    color:white;
+}
